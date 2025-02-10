@@ -14,13 +14,13 @@ public class TestClient {
                 new BigDecimal(50000), "5 years as Architect", true,
                 new BigDecimal(10000));
 
-        AccountClient accountClient = new AccountClient();
+        AccountDepartment accountClient = new AccountDepartment();
         accountClient.calculateSalary(developer);
 
-        HRClient hrClient = new HRClient();
+        HRDepartment hrClient = new HRDepartment();
         hrClient.printdetail(architect);
 
-        AdminClient adminClient = new AdminClient();
+        AdminDepartment adminClient = new AdminDepartment();
         adminClient.allowRestrictedRoomAccess(salesAssociate);
     }
 }

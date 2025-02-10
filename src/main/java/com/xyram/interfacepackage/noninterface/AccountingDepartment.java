@@ -1,8 +1,8 @@
-package com.xyram.abstractclass.nonabstractclasspattern;
+package com.xyram.interfacepackage.noninterface;
 
 import java.math.BigDecimal;
 
-public class AccountingClient {
+public class AccountingDepartment {
     public void calSalary(String type){
         if(type.equals("Developer")){
             Developer developer = new Developer("Neeraj", "Lucknow",

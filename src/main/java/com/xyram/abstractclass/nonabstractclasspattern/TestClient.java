@@ -2,13 +2,13 @@ package com.xyram.abstractclass.nonabstractclasspattern;
 
 public class TestClient {
     public static void main(String[] args){
-        AccountingClient accountingClient = new AccountingClient();
+        AccountingDepartment accountingClient = new AccountingDepartment();
         accountingClient.calSalary("SalesAssociate");
 
-        HRClient hrClient = new HRClient();
+        HRDepartment hrClient = new HRDepartment();
         hrClient.printdetail("Developer");
 
-        AdminClient adminClient = new AdminClient();
+        AdminDepartment adminClient = new AdminDepartment();
         adminClient.allowRestrictedRoomAccess("Architect");
     }
 }

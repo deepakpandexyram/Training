@@ -1,6 +1,6 @@
-package com.xyram.interfacepackage.interfacepattern;
+package com.xyram.abstractclass.abstractclasspattern;
 
-public class HRClient {
+public class HRDepartment {
     public void printdetail(Person person){
         person.printDetail();
     }

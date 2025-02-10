@@ -1,6 +1,6 @@
-package com.xyram.interfacepackage.interfacepattern;
+package com.xyram.abstractclass.abstractclasspattern;
 
-public class AccountClient {
+public class AccountDepartment {
     public void calculateSalary(Person person){
         person.calculateSalary();
     }
